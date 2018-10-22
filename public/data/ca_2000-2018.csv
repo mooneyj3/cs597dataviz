@@ -1,0 +1,933 @@
+row,category,code,source,type of fund,fiscal year,amount
+2501,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2000,288451
+2502,Major Revenue,2,Corporation Tax,General Fund,2000,6899302
+2503,Major Revenue,3,Cigarette Tax,General Fund,2000,126664
+2504,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2000,4382
+2505,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2000,934708
+2506,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2000,1496556
+2507,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2000,26337
+2508,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2000,0
+2509,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2000,0
+2510,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2000,0
+2511,Major Revenue,11,Motor Vehicle Registration,General Fund,2000,0
+2512,Major Revenue,12,Personal Income Tax,General Fund,2000,44614297
+2513,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2000,0
+2514,Major Revenue,14,Retail Sales and Use Tax,General Fund,2000,21276843
+2515,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2000,0
+2516,Major Revenue,2,Corporation Tax,Special Funds,2000,0
+2517,Major Revenue,3,Cigarette Tax,Special Funds,2000,1024192
+2518,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2000,40159
+2519,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2000,0
+2520,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2000,0
+2521,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2000,0
+2522,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2000,3289168
+2523,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2000,2679717
+2524,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2000,462425
+2525,Major Revenue,11,Motor Vehicle Registration,Special Funds,2000,1943249
+2526,Major Revenue,12,Personal Income Tax,Special Funds,2000,0
+2527,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2000,2287600
+2528,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2000,733849
+2529,Minor Revenue,20,Trial Court Revenues,General Fund,2000,444
+2530,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2000,0
+2531,Minor Revenue,22,California State University Fees,General Fund,2000,0
+2532,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2000,821243
+2533,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2000,4494
+2534,Minor Revenue,25,State Lands Royalties,General Fund,2000,13438
+2535,Minor Revenue,26,Abandoned Property,General Fund,2000,133785
+2536,Minor Revenue,27,Settlements & Judgments,General Fund,2000,392611
+2537,Minor Revenue,28,All Other Minor Revenue,General Fund,2000,574177
+2538,Minor Revenue,20,Trial Court Revenues,Special Funds,2000,0
+2539,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2000,121668
+2540,Minor Revenue,22,California State University Fees,Special Funds,2000,664300
+2541,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2000,306
+2542,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2000,346945
+2543,Minor Revenue,25,State Lands Royalties,Special Funds,2000,123381
+2544,Minor Revenue,26,Abandoned Property,Special Funds,2000,0
+2545,Minor Revenue,27,Settlements & Judgments,Special Funds,2000,80
+2546,Minor Revenue,28,All Other Minor Revenue,Special Funds,2000,3396498
+2547,Transfers & Loans,29,Transfers & Loans,General Fund,2000,-6180836
+2548,Transfers & Loans,29,Transfers & Loans,Special Funds,2000,-122192
+2549,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2000,802
+2550,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2000,0
+2551,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2001,292627
+2552,Major Revenue,2,Corporation Tax,General Fund,2001,5333025
+2553,Major Revenue,3,Cigarette Tax,General Fund,2001,121612
+2554,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2001,3296
+2555,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2001,915627
+2556,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2001,1595846
+2557,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2001,15372
+2558,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2001,0
+2559,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2001,0
+2560,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2001,0
+2561,Major Revenue,11,Motor Vehicle Registration,General Fund,2001,0
+2562,Major Revenue,12,Personal Income Tax,General Fund,2001,33046665
+2563,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2001,0
+2564,Major Revenue,14,Retail Sales and Use Tax,General Fund,2001,21355315
+2566,Major Revenue,15,Telecommunications Tax,General Fund,2001,0
+2567,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2001,0
+2568,Major Revenue,2,Corporation Tax,Special Funds,2001,11
+2569,Major Revenue,3,Cigarette Tax,Special Funds,2001,981195
+2570,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2001,41326
+2571,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2001,0
+2572,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2001,156
+2573,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2001,2388
+2574,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2001,1927368
+2575,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2001,2828024
+2576,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2001,467879
+2577,Major Revenue,11,Motor Vehicle Registration,Special Funds,2001,1891776
+2578,Major Revenue,12,Personal Income Tax,Special Funds,2001,0
+2579,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2001,2228978
+2580,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2001,232113
+2582,Major Revenue,15,Telecommunications Tax,Special Funds,2001,14264
+2583,Minor Revenue,20,Trial Court Revenues,General Fund,2001,0
+2584,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2001,0
+2585,Minor Revenue,22,California State University Fees,General Fund,2001,0
+2586,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2001,354988
+2587,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2001,4131
+2588,Minor Revenue,25,State Lands Royalties,General Fund,2001,15131
+2589,Minor Revenue,26,Abandoned Property,General Fund,2001,287848
+2590,Minor Revenue,27,Settlements & Judgments,General Fund,2001,75771
+2591,Minor Revenue,28,All Other Minor Revenue,General Fund,2001,1190883
+2592,Minor Revenue,20,Trial Court Revenues,Special Funds,2001,0
+2593,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2001,125381
+2594,Minor Revenue,22,California State University Fees,Special Funds,2001,735050
+2595,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2001,1123
+2596,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2001,208249
+2597,Minor Revenue,25,State Lands Royalties,Special Funds,2001,27698
+2598,Minor Revenue,26,Abandoned Property,Special Funds,2001,0
+2599,Minor Revenue,27,Settlements & Judgments,Special Funds,2001,402010
+2600,Minor Revenue,28,All Other Minor Revenue,Special Funds,2001,6250624
+2601,Transfers & Loans,29,Transfers & Loans,General Fund,2001,7653229
+2602,Transfers & Loans,29,Transfers & Loans,Special Funds,2001,-824131
+2603,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2001,1242
+2604,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2001,0
+2605,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2002,290564
+2606,Major Revenue,2,Corporation Tax,General Fund,2002,6803559
+2607,Major Revenue,3,Cigarette Tax,General Fund,2002,114894
+2608,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2002,2037
+2609,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2002,647372
+2610,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2002,1879784
+2611,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2002,15592
+2612,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2002,0
+2613,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2002,0
+2614,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2002,0
+2615,Major Revenue,11,Motor Vehicle Registration,General Fund,2002,0
+2616,Major Revenue,12,Personal Income Tax,General Fund,2002,32709761
+2617,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2002,0
+2618,Major Revenue,14,Retail Sales and Use Tax,General Fund,2002,22415138
+2620,Major Revenue,15,Telecommunications Tax,General Fund,2002,0
+2621,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2002,0
+2622,Major Revenue,2,Corporation Tax,Special Funds,2002,0
+2623,Major Revenue,3,Cigarette Tax,Special Funds,2002,940611
+2624,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2002,39991
+2625,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2002,0
+2626,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2002,0
+2627,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2002,2388
+2628,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2002,1885148
+2629,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2002,2728133
+2630,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2002,474378
+2631,Major Revenue,11,Motor Vehicle Registration,Special Funds,2002,1986474
+2632,Major Revenue,12,Personal Income Tax,Special Funds,2002,0
+2633,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2002,2279419
+2634,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2002,204468
+2636,Major Revenue,15,Telecommunications Tax,Special Funds,2002,0
+2637,Minor Revenue,20,Trial Court Revenues,General Fund,2002,0
+2638,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2002,0
+2639,Minor Revenue,22,California State University Fees,General Fund,2002,0
+2640,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2002,189577
+2641,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2002,37075
+2642,Minor Revenue,25,State Lands Royalties,General Fund,2002,78470
+2643,Minor Revenue,26,Abandoned Property,General Fund,2002,257533
+2644,Minor Revenue,27,Settlements & Judgments,General Fund,2002,5
+2645,Minor Revenue,28,All Other Minor Revenue,General Fund,2002,12337092
+2646,Minor Revenue,20,Trial Court Revenues,Special Funds,2002,0
+2647,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2002,139267
+2648,Minor Revenue,22,California State University Fees,Special Funds,2002,818980
+2649,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2002,401
+2650,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2002,107086
+2651,Minor Revenue,25,State Lands Royalties,Special Funds,2002,5000
+2652,Minor Revenue,26,Abandoned Property,Special Funds,2002,0
+2653,Minor Revenue,27,Settlements & Judgments,Special Funds,2002,476069
+2654,Minor Revenue,28,All Other Minor Revenue,Special Funds,2002,5589409
+2655,Transfers & Loans,29,Transfers & Loans,General Fund,2002,2785113
+2656,Transfers & Loans,29,Transfers & Loans,Special Funds,2002,-2446488
+2657,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2002,0
+2658,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2002,0
+2659,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2003,312826
+2659,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2004,314252
+2660,Major Revenue,2,Corporation Tax,General Fund,2003,7019216
+2660,Major Revenue,2,Corporation Tax,General Fund,2004,8670065
+2661,Major Revenue,3,Cigarette Tax,General Fund,2003,117137
+2661,Major Revenue,3,Cigarette Tax,General Fund,2004,119055
+2662,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2003,2429
+2662,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2004,2655
+2663,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2003,397848
+2663,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2004,213036
+2664,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2003,2114980
+2664,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2004,2232955
+2665,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2003,18678
+2665,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2004,21586
+2666,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2003,0
+2666,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2004,0
+2667,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2003,0
+2667,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2004,0
+2668,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2003,0
+2668,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2004,0
+2669,Major Revenue,11,Motor Vehicle Registration,General Fund,2003,0
+2669,Major Revenue,11,Motor Vehicle Registration,General Fund,2004,0
+2670,Major Revenue,12,Personal Income Tax,General Fund,2003,36398983
+2670,Major Revenue,12,Personal Income Tax,General Fund,2004,42738007
+2671,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2003,0
+2671,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2004,0
+2672,Major Revenue,14,Retail Sales and Use Tax,General Fund,2003,23847329
+2672,Major Revenue,14,Retail Sales and Use Tax,General Fund,2004,25758635
+2674,Major Revenue,15,Telecommunications Tax,General Fund,2003,0
+2674,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2004,0
+2675,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2003,0
+2675,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2004,0
+2676,Major Revenue,2,Corporation Tax,Special Funds,2003,0
+2676,Major Revenue,2,Corporation Tax,Special Funds,2004,0
+2677,Major Revenue,3,Cigarette Tax,Special Funds,2003,964451
+2677,Major Revenue,3,Cigarette Tax,Special Funds,2004,977169
+2678,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2003,39714
+2678,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2004,35836
+2679,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2003,0
+2679,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2004,0
+2680,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2003,0
+2680,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2004,0
+2681,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2003,2388
+2681,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2004,2388
+2682,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2003,2051623
+2682,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2004,2133709
+2683,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2003,2824076
+2683,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2004,2834532
+2684,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2003,500807
+2684,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2004,531609
+2685,Major Revenue,11,Motor Vehicle Registration,Special Funds,2003,2342437
+2685,Major Revenue,11,Motor Vehicle Registration,Special Funds,2004,2716022
+2686,Major Revenue,12,Personal Income Tax,Special Funds,2003,0
+2686,Major Revenue,12,Personal Income Tax,Special Funds,2004,254000
+2687,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2003,2442620
+2687,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2004,2625007
+2688,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2003,216962
+2688,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2004,420469
+2690,Major Revenue,15,Telecommunications Tax,Special Funds,2003,0
+2690,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2004,1163025
+2691,Minor Revenue,20,Trial Court Revenues,General Fund,2003,0
+2691,Minor Revenue,20,Trial Court Revenues,General Fund,2004,0
+2692,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2003,0
+2692,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2004,0
+2693,Minor Revenue,22,California State University Fees,General Fund,2003,0
+2693,Minor Revenue,22,California State University Fees,General Fund,2004,0
+2694,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2003,123312
+2694,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2004,232012
+2695,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2003,5919
+2695,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2004,4791
+2696,Minor Revenue,25,State Lands Royalties,General Fund,2003,113763
+2696,Minor Revenue,25,State Lands Royalties,General Fund,2004,174919
+2697,Minor Revenue,26,Abandoned Property,General Fund,2003,669319
+2697,Minor Revenue,26,Abandoned Property,General Fund,2004,657759
+2698,Minor Revenue,27,Settlements & Judgments,General Fund,2003,4011
+2698,Minor Revenue,27,Settlements & Judgments,General Fund,2004,5068
+2699,Minor Revenue,28,All Other Minor Revenue,General Fund,2003,5008601
+2699,Minor Revenue,28,All Other Minor Revenue,General Fund,2004,829660
+2700,Minor Revenue,20,Trial Court Revenues,Special Funds,2003,0
+2700,Minor Revenue,20,Trial Court Revenues,Special Funds,2004,0
+2701,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2003,139510
+2701,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2004,128463
+2702,Minor Revenue,22,California State University Fees,Special Funds,2003,1012233
+2702,Minor Revenue,22,California State University Fees,Special Funds,2004,1098122
+2703,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2003,111
+2703,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2004,153
+2704,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2003,73508
+2704,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2004,126120
+2705,Minor Revenue,25,State Lands Royalties,Special Funds,2003,7900
+2705,Minor Revenue,25,State Lands Royalties,Special Funds,2004,13200
+2706,Minor Revenue,26,Abandoned Property,Special Funds,2003,0
+2706,Minor Revenue,26,Abandoned Property,Special Funds,2004,0
+2707,Minor Revenue,27,Settlements & Judgments,Special Funds,2003,762
+2707,Minor Revenue,27,Settlements & Judgments,Special Funds,2004,496
+2708,Minor Revenue,28,All Other Minor Revenue,Special Funds,2003,7564809
+2708,Minor Revenue,28,All Other Minor Revenue,Special Funds,2004,7435583
+2709,Transfers & Loans,29,Transfers & Loans,General Fund,2003,713029
+2709,Transfers & Loans,29,Transfers & Loans,General Fund,2004,228490
+2710,Transfers & Loans,29,Transfers & Loans,Special Funds,2003,-592786
+2710,Transfers & Loans,29,Transfers & Loans,Special Funds,2004,-243607
+2711,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2003,0
+2711,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2004,6544
+2712,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2003,0
+2712,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2004,0
+2713,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2005,318276
+2714,Major Revenue,2,Corporation Tax,General Fund,2005,10316467
+2715,Major Revenue,3,Cigarette Tax,General Fund,2005,118022
+2716,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2005,2422
+2717,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2005,3786
+2718,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2005,2202327
+2719,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2005,24892
+2720,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2005,0
+2721,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2005,0
+2722,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2005,0
+2723,Major Revenue,11,Motor Vehicle Registration,General Fund,2005,0
+2724,Major Revenue,12,Personal Income Tax,General Fund,2005,49901122
+2725,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2005,0
+2726,Major Revenue,14,Retail Sales and Use Tax,General Fund,2005,27580979
+2727,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2005,0
+2728,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2005,0
+2729,Major Revenue,2,Corporation Tax,Special Funds,2005,0
+2730,Major Revenue,3,Cigarette Tax,Special Funds,2005,970681
+2731,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2005,35596
+2732,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2005,0
+2733,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2005,0
+2734,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2005,2388
+2735,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2005,2239348
+2736,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2005,2842953
+2737,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2005,550428
+2738,Major Revenue,11,Motor Vehicle Registration,Special Funds,2005,2811901
+2739,Major Revenue,12,Personal Income Tax,Special Funds,2005,1318701
+2740,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2005,2846114
+2741,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2005,354305
+2742,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2005,1419684
+2743,Minor Revenue,20,Trial Court Revenues,General Fund,2005,0
+2744,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2005,0
+2745,Minor Revenue,22,California State University Fees,General Fund,2005,0
+2746,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2005,447193
+2747,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2005,4021
+2748,Minor Revenue,25,State Lands Royalties,General Fund,2005,295573
+2749,Minor Revenue,26,Abandoned Property,General Fund,2005,334206
+2750,Minor Revenue,27,Settlements & Judgments,General Fund,2005,87969
+2751,Minor Revenue,28,All Other Minor Revenue,General Fund,2005,1820820
+2752,Minor Revenue,20,Trial Court Revenues,Special Funds,2005,0
+2753,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2005,130911
+2754,Minor Revenue,22,California State University Fees,Special Funds,2005,1230748
+2755,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2005,433
+2756,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2005,272937
+2757,Minor Revenue,25,State Lands Royalties,Special Funds,2005,4000
+2758,Minor Revenue,26,Abandoned Property,Special Funds,2005,0
+2759,Minor Revenue,27,Settlements & Judgments,Special Funds,2005,1645
+2760,Minor Revenue,28,All Other Minor Revenue,Special Funds,2005,7849847
+2761,Transfers & Loans,29,Transfers & Loans,General Fund,2005,-6630
+2762,Transfers & Loans,29,Transfers & Loans,Special Funds,2005,13420
+2763,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2005,0
+2764,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2005,0
+2765,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2006,333789
+2766,Major Revenue,2,Corporation Tax,General Fund,2006,11157898
+2767,Major Revenue,3,Cigarette Tax,General Fund,2006,115368
+2768,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2006,2270
+2769,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2006,6348
+2770,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2006,2178336
+2771,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2006,26982
+2772,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2006,0
+2773,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2006,0
+2774,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2006,0
+2775,Major Revenue,11,Motor Vehicle Registration,General Fund,2006,0
+2776,Major Revenue,12,Personal Income Tax,General Fund,2006,51971378
+2777,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2006,0
+2778,Major Revenue,14,Retail Sales and Use Tax,General Fund,2006,27444661
+2779,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2006,0
+2780,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2006,0
+2781,Major Revenue,2,Corporation Tax,Special Funds,2006,0
+2782,Major Revenue,3,Cigarette Tax,Special Funds,2006,963168
+2783,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2006,35257
+2784,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2006,0
+2785,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2006,0
+2786,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2006,2388
+2787,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2006,2268019
+2788,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2006,2851631
+2789,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2006,580896
+2790,Major Revenue,11,Motor Vehicle Registration,Special Funds,2006,2849952
+2791,Major Revenue,12,Personal Income Tax,Special Funds,2006,1377388
+2792,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2006,2862308
+2793,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2006,950814
+2794,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2006,1411392
+2795,Minor Revenue,20,Trial Court Revenues,General Fund,2006,0
+2796,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2006,0
+2797,Minor Revenue,22,California State University Fees,General Fund,2006,0
+2798,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2006,533149
+2799,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2006,5813
+2800,Minor Revenue,25,State Lands Royalties,General Fund,2006,255092
+2801,Minor Revenue,26,Abandoned Property,General Fund,2006,205180
+2802,Minor Revenue,27,Settlements & Judgments,General Fund,2006,37251
+2803,Minor Revenue,28,All Other Minor Revenue,General Fund,2006,1213398
+2804,Minor Revenue,20,Trial Court Revenues,Special Funds,2006,0
+2805,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2006,112154
+2806,Minor Revenue,22,California State University Fees,Special Funds,2006,0
+2807,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2006,1594
+2808,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2006,492426
+2809,Minor Revenue,25,State Lands Royalties,Special Funds,2006,0
+2810,Minor Revenue,26,Abandoned Property,Special Funds,2006,0
+2811,Minor Revenue,27,Settlements & Judgments,Special Funds,2006,5824
+2812,Minor Revenue,28,All Other Minor Revenue,Special Funds,2006,7955517
+2813,Transfers & Loans,29,Transfers & Loans,General Fund,2006,-17690
+2814,Transfers & Loans,29,Transfers & Loans,Special Funds,2006,548974
+2815,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2006,0
+2816,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2006,0
+2817,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2007,327260
+2818,Major Revenue,2,Corporation Tax,General Fund,2007,11849097
+2819,Major Revenue,3,Cigarette Tax,General Fund,2007,109870
+2820,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2007,2498
+2821,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2007,6303
+2822,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2007,2172936
+2823,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2007,27367
+2824,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2007,0
+2825,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2007,0
+2826,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2007,0
+2827,Major Revenue,11,Motor Vehicle Registration,General Fund,2007,0
+2828,Major Revenue,12,Personal Income Tax,General Fund,2007,54181857
+2829,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2007,0
+2830,Major Revenue,14,Retail Sales and Use Tax,General Fund,2007,26613264
+2831,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2007,0
+2832,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2007,0
+2833,Major Revenue,2,Corporation Tax,Special Funds,2007,0
+2834,Major Revenue,3,Cigarette Tax,Special Funds,2007,927417
+2835,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2007,32451
+2836,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2007,0
+2837,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2007,0
+2838,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2007,2388
+2839,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2007,2243239
+2840,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2007,2830536
+2841,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2007,587877
+2842,Major Revenue,11,Motor Vehicle Registration,Special Funds,2007,2939817
+2843,Major Revenue,12,Personal Income Tax,Special Funds,2007,1564113
+2844,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2007,2805238
+2845,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2007,1157372
+2846,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2007,1397000
+2847,Minor Revenue,20,Trial Court Revenues,General Fund,2007,0
+2848,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2007,0
+2849,Minor Revenue,22,California State University Fees,General Fund,2007,0
+2850,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2007,438546
+2851,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2007,5721
+2852,Minor Revenue,25,State Lands Royalties,General Fund,2007,416314
+2853,Minor Revenue,26,Abandoned Property,General Fund,2007,322594
+2854,Minor Revenue,27,Settlements & Judgments,General Fund,2007,15670
+2855,Minor Revenue,28,All Other Minor Revenue,General Fund,2007,4795766
+2856,Minor Revenue,20,Trial Court Revenues,Special Funds,2007,0
+2857,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2007,103748
+2858,Minor Revenue,22,California State University Fees,Special Funds,2007,0
+2859,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2007,2774
+2860,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2007,448214
+2861,Minor Revenue,25,State Lands Royalties,Special Funds,2007,0
+2862,Minor Revenue,26,Abandoned Property,Special Funds,2007,0
+2863,Minor Revenue,27,Settlements & Judgments,Special Funds,2007,6699
+2864,Minor Revenue,28,All Other Minor Revenue,Special Funds,2007,8233808
+2865,Transfers & Loans,29,Transfers & Loans,General Fund,2007,1236818
+2866,Transfers & Loans,29,Transfers & Loans,Special Funds,2007,-613536
+2867,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2007,0
+2868,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2007,0
+2869,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2008,323934
+2870,Major Revenue,2,Corporation Tax,General Fund,2008,9535679
+2871,Major Revenue,3,Cigarette Tax,General Fund,2008,107250
+2872,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2008,2768
+2873,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2008,245
+2874,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2008,2053850
+2875,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2008,28653
+2876,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2008,216172
+2877,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2008,0
+2878,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2008,0
+2879,Major Revenue,11,Motor Vehicle Registration,General Fund,2008,0
+2880,Major Revenue,12,Personal Income Tax,General Fund,2008,43375959
+2881,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2008,0
+2882,Major Revenue,14,Retail Sales and Use Tax,General Fund,2008,23753364
+2883,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2008,0
+2885,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2008,0
+2886,Major Revenue,2,Corporation Tax,Special Funds,2008,0
+2887,Major Revenue,3,Cigarette Tax,Special Funds,2008,893206
+2888,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2008,27969
+2889,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2008,0
+2890,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2008,0
+2891,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2008,2388
+2892,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2008,2081956
+2893,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2008,2666373
+2894,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2008,513739
+2895,Major Revenue,11,Motor Vehicle Registration,Special Funds,2008,3237473
+2896,Major Revenue,12,Personal Income Tax,Special Funds,2008,980000
+2897,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2008,2445950
+2898,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2008,1518672
+2899,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2008,1254316
+2901,Minor Revenue,20,Trial Court Revenues,General Fund,2008,0
+2902,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2008,0
+2903,Minor Revenue,22,California State University Fees,General Fund,2008,0
+2904,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2008,109289
+2905,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2008,5259
+2906,Minor Revenue,25,State Lands Royalties,General Fund,2008,328263
+2907,Minor Revenue,26,Abandoned Property,General Fund,2008,272286
+2908,Minor Revenue,27,Settlements & Judgments,General Fund,2008,56762
+2909,Minor Revenue,28,All Other Minor Revenue,General Fund,2008,1575887
+2910,Minor Revenue,20,Trial Court Revenues,Special Funds,2008,0
+2911,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2008,108000
+2912,Minor Revenue,22,California State University Fees,Special Funds,2008,0
+2913,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2008,1791
+2914,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2008,209358
+2915,Minor Revenue,25,State Lands Royalties,Special Funds,2008,0
+2916,Minor Revenue,26,Abandoned Property,Special Funds,2008,0
+2917,Minor Revenue,27,Settlements & Judgments,Special Funds,2008,39155
+2918,Minor Revenue,28,All Other Minor Revenue,Special Funds,2008,8585065
+2919,Transfers & Loans,29,Transfers & Loans,General Fund,2008,1026492
+2920,Transfers & Loans,29,Transfers & Loans,Special Funds,2008,-1018551
+2921,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2008,0
+2922,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2008,0
+2923,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2009,311242
+2924,Major Revenue,2,Corporation Tax,General Fund,2009,9114589
+2925,Major Revenue,3,Cigarette Tax,General Fund,2009,96180
+2926,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2009,1205
+2927,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2009,0
+2928,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2009,2002046
+2929,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2009,38832
+2930,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2009,1379558
+2931,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2009,0
+2932,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2009,0
+2933,Major Revenue,11,Motor Vehicle Registration,General Fund,2009,0
+2934,Major Revenue,12,Personal Income Tax,General Fund,2009,44852331
+2935,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2009,0
+2936,Major Revenue,14,Retail Sales and Use Tax,General Fund,2009,26740781
+2937,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2009,0
+2939,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2009,0
+2940,Major Revenue,2,Corporation Tax,Special Funds,2009,0
+2941,Major Revenue,3,Cigarette Tax,Special Funds,2009,826806
+2942,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2009,14336
+2943,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2009,0
+2944,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2009,178740
+2945,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2009,2388
+2946,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2009,1926889
+2947,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2009,2667520
+2948,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2009,496174
+2949,Major Revenue,11,Motor Vehicle Registration,Special Funds,2009,3379300
+2950,Major Revenue,12,Personal Income Tax,Special Funds,2009,798570
+2951,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2009,2355670
+2952,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2009,928374
+2953,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2009,1172329
+2955,Minor Revenue,20,Trial Court Revenues,General Fund,2009,0
+2956,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2009,0
+2957,Minor Revenue,22,California State University Fees,General Fund,2009,0
+2958,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2009,38433
+2959,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2009,2109
+2960,Minor Revenue,25,State Lands Royalties,General Fund,2009,292862
+2961,Minor Revenue,26,Abandoned Property,General Fund,2009,336932
+2962,Minor Revenue,27,Settlements & Judgments,General Fund,2009,4229
+2963,Minor Revenue,28,All Other Minor Revenue,General Fund,2009,1358505
+2964,Minor Revenue,20,Trial Court Revenues,Special Funds,2009,0
+2965,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2009,90000
+2966,Minor Revenue,22,California State University Fees,Special Funds,2009,0
+2967,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2009,640
+2968,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2009,60913
+2969,Minor Revenue,25,State Lands Royalties,Special Funds,2009,0
+2970,Minor Revenue,26,Abandoned Property,Special Funds,2009,0
+2971,Minor Revenue,27,Settlements & Judgments,Special Funds,2009,26358
+2972,Minor Revenue,28,All Other Minor Revenue,Special Funds,2009,8577518
+2973,Transfers & Loans,29,Transfers & Loans,General Fund,2009,475758
+2974,Transfers & Loans,29,Transfers & Loans,Special Funds,2009,-482239
+2975,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2009,0
+2976,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2009,0
+2977,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2010,334178
+2978,Major Revenue,2,Corporation Tax,General Fund,2010,9613594
+2979,Major Revenue,3,Cigarette Tax,General Fund,2010,96097
+2980,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2010,1157
+2981,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2010,0
+2982,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2010,2076889
+2983,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2010,30115
+2984,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2010,1330000
+2985,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2010,0
+2986,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2010,0
+2987,Major Revenue,11,Motor Vehicle Registration,General Fund,2010,0
+2988,Major Revenue,12,Personal Income Tax,General Fund,2010,49445469
+2989,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2010,0
+2990,Major Revenue,14,Retail Sales and Use Tax,General Fund,2010,26983000
+2991,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2010,0
+2992,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2010,0
+2993,Major Revenue,2,Corporation Tax,Special Funds,2010,0
+2994,Major Revenue,3,Cigarette Tax,Special Funds,2010,809148
+2995,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2010,12391
+2996,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2010,0
+2997,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2010,230133
+2998,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2010,2388
+2999,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2010,1836259
+3000,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2010,5231599
+3001,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2010,473928
+3002,Major Revenue,11,Motor Vehicle Registration,Special Funds,2010,3359359
+3003,Major Revenue,12,Personal Income Tax,Special Funds,2010,1062520
+3004,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2010,2469129
+3005,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2010,327602
+3006,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2010,1216641
+3007,Minor Revenue,20,Trial Court Revenues,General Fund,2010,0
+3008,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2010,0
+3009,Minor Revenue,22,California State University Fees,General Fund,2010,0
+3010,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2010,33570
+3011,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2010,1148
+3012,Minor Revenue,25,State Lands Royalties,General Fund,2010,377404
+3013,Minor Revenue,26,Abandoned Property,General Fund,2010,253564
+3014,Minor Revenue,27,Settlements & Judgments,General Fund,2010,7969
+3015,Minor Revenue,28,All Other Minor Revenue,General Fund,2010,1371225
+3016,Minor Revenue,20,Trial Court Revenues,Special Funds,2010,0
+3017,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2010,86500
+3018,Minor Revenue,22,California State University Fees,Special Funds,2010,0
+3019,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2010,393
+3020,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2010,48422
+3021,Minor Revenue,25,State Lands Royalties,Special Funds,2010,0
+3022,Minor Revenue,26,Abandoned Property,Special Funds,2010,0
+3023,Minor Revenue,27,Settlements & Judgments,Special Funds,2010,1240
+3024,Minor Revenue,28,All Other Minor Revenue,Special Funds,2010,13353038
+3025,Transfers & Loans,29,Transfers & Loans,General Fund,2010,1487897
+3026,Transfers & Loans,29,Transfers & Loans,Special Funds,2010,-1500836
+3027,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2010,0
+3028,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2010,0
+3029,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2011,346000
+3030,Major Revenue,2,Corporation Tax,General Fund,2011,7233000
+3031,Major Revenue,3,Cigarette Tax,General Fund,2011,95000
+3032,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2011,1150
+3034,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2011,2165000
+3035,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2011,20698
+3036,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2011,70000
+3037,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2011,0
+3038,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2011,0
+3039,Major Revenue,11,Motor Vehicle Registration,General Fund,2011,0
+3040,Major Revenue,12,Personal Income Tax,General Fund,2011,54261266
+3041,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2011,0
+3042,Major Revenue,14,Retail Sales and Use Tax,General Fund,2011,18658000
+3043,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2011,0
+3044,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2011,0
+3045,Major Revenue,2,Corporation Tax,Special Funds,2011,0
+3046,Major Revenue,3,Cigarette Tax,Special Funds,2011,800677
+3047,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2011,14688
+3049,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2011,251073
+3050,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2011,2398
+3051,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2011,1978751
+3052,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2011,5181536
+3053,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2011,362994
+3054,Major Revenue,11,Motor Vehicle Registration,Special Funds,2011,3836019
+3055,Major Revenue,12,Personal Income Tax,Special Funds,2011,1188026
+3056,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2011,7983073
+3057,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2011,588803
+3058,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2011,1312362
+3059,Minor Revenue,20,Trial Court Revenues,General Fund,2011,0
+3060,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2011,0
+3061,Minor Revenue,22,California State University Fees,General Fund,2011,0
+3062,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2011,25000
+3063,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2011,1864
+3064,Minor Revenue,25,State Lands Royalties,General Fund,2011,478525
+3065,Minor Revenue,26,Abandoned Property,General Fund,2011,401257
+3066,Minor Revenue,27,Settlements & Judgments,General Fund,2011,24038
+3067,Minor Revenue,28,All Other Minor Revenue,General Fund,2011,1495485
+3068,Minor Revenue,20,Trial Court Revenues,Special Funds,2011,0
+3069,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2011,83320
+3070,Minor Revenue,22,California State University Fees,Special Funds,2011,0
+3071,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2011,345
+3072,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2011,32933
+3073,Minor Revenue,25,State Lands Royalties,Special Funds,2011,0
+3074,Minor Revenue,26,Abandoned Property,Special Funds,2011,0
+3075,Minor Revenue,27,Settlements & Judgments,Special Funds,2011,2398
+3076,Minor Revenue,28,All Other Minor Revenue,Special Funds,2011,9583699
+3077,Transfers & Loans,29,Transfers & Loans,General Fund,2011,1509361
+3078,Transfers & Loans,29,Transfers & Loans,Special Funds,2011,-1197072
+3079,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2011,0
+3080,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2011,0
+3081,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2012,357000
+3082,Major Revenue,2,Corporation Tax,General Fund,2012,7783000
+3083,Major Revenue,3,Cigarette Tax,General Fund,2012,90000
+3084,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2012,1105
+3085,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2012,0
+3086,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2012,2221000
+3087,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2012,19112
+3088,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2012,7000
+3089,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2012,0
+3090,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2012,0
+3091,Major Revenue,11,Motor Vehicle Registration,General Fund,2012,0
+3092,Major Revenue,12,Personal Income Tax,General Fund,2012,64484000
+3093,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2012,0
+3094,Major Revenue,14,Retail Sales and Use Tax,General Fund,2012,20482000
+3095,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2012,0
+3096,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2012,0
+3097,Major Revenue,2,Corporation Tax,Special Funds,2012,0
+3098,Major Revenue,3,Cigarette Tax,Special Funds,2012,778703
+3099,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2012,12983
+3100,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2012,0
+3101,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2012,21379
+3102,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2012,2388
+3103,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2012,1945822
+3104,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2012,5172274
+3105,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2012,320576
+3106,Major Revenue,11,Motor Vehicle Registration,Special Funds,2012,3890492
+3107,Major Revenue,12,Personal Income Tax,Special Funds,2012,1684000
+3108,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2012,8441798
+3109,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2012,640106
+3110,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2012,1443386
+3111,Minor Revenue,20,Trial Court Revenues,General Fund,2012,0
+3112,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2012,0
+3113,Minor Revenue,22,California State University Fees,General Fund,2012,0
+3114,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2012,26000
+3115,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2012,369
+3116,Minor Revenue,25,State Lands Royalties,General Fund,2012,381701
+3117,Minor Revenue,26,Abandoned Property,General Fund,2012,486530
+3118,Minor Revenue,27,Settlements & Judgments,General Fund,2012,23132
+3119,Minor Revenue,28,All Other Minor Revenue,General Fund,2012,1226846
+3120,Minor Revenue,20,Trial Court Revenues,Special Funds,2012,0
+3121,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2012,79150
+3122,Minor Revenue,22,California State University Fees,Special Funds,2012,0
+3123,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2012,184
+3124,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2012,22469
+3125,Minor Revenue,25,State Lands Royalties,Special Funds,2012,0
+3126,Minor Revenue,26,Abandoned Property,Special Funds,2012,0
+3127,Minor Revenue,27,Settlements & Judgments,Special Funds,2012,4085
+3128,Minor Revenue,28,All Other Minor Revenue,Special Funds,2012,14449215
+3129,Transfers & Loans,29,Transfers & Loans,General Fund,2012,1812783
+3130,Transfers & Loans,29,Transfers & Loans,Special Funds,2012,-1374763
+3131,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2012,0
+3132,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2012,0
+3133,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2013,354297
+3134,Major Revenue,2,Corporation Tax,General Fund,2013,9092696
+3135,Major Revenue,3,Cigarette Tax,General Fund,2013,86378
+3136,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2013,940
+3137,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2013,0
+3138,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2013,2632738
+3139,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2013,19189
+3140,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2013,1811
+3141,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2013,0
+3142,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2013,0
+3143,Major Revenue,11,Motor Vehicle Registration,General Fund,2013,0
+3144,Major Revenue,12,Personal Income Tax,General Fund,2013,67025264
+3145,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2013,0
+3146,Major Revenue,14,Retail Sales and Use Tax,General Fund,2013,22263123
+3147,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2013,0
+3148,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2013,0
+3149,Major Revenue,2,Corporation Tax,Special Funds,2013,0
+3150,Major Revenue,3,Cigarette Tax,Special Funds,2013,746748
+3151,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2013,12959
+3152,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2013,0
+3153,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2013,0
+3154,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2013,0
+3155,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2013,2144318
+3156,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2013,5724181
+3157,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2013,339175
+3158,Major Revenue,11,Motor Vehicle Registration,Special Funds,2013,3566844
+3159,Major Revenue,12,Personal Income Tax,Special Funds,2013,1281000
+3160,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2013,8927622
+3161,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2013,1466252
+3162,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2013,1506867
+3163,Minor Revenue,20,Trial Court Revenues,General Fund,2013,0
+3164,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2013,0
+3165,Minor Revenue,22,California State University Fees,General Fund,2013,0
+3166,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2013,15998
+3167,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2013,638
+3168,Minor Revenue,25,State Lands Royalties,General Fund,2013,445172
+3169,Minor Revenue,26,Abandoned Property,General Fund,2013,364000
+3170,Minor Revenue,27,Settlements & Judgments,General Fund,2013,62844
+3171,Minor Revenue,28,All Other Minor Revenue,General Fund,2013,633094.49
+3172,Minor Revenue,20,Trial Court Revenues,Special Funds,2013,0
+3173,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2013,85223
+3174,Minor Revenue,22,California State University Fees,Special Funds,2013,0
+3175,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2013,167
+3176,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2013,17331
+3177,Minor Revenue,25,State Lands Royalties,Special Funds,2013,0
+3178,Minor Revenue,26,Abandoned Property,Special Funds,2013,0
+3179,Minor Revenue,27,Settlements & Judgments,Special Funds,2013,14722
+3180,Minor Revenue,28,All Other Minor Revenue,Special Funds,2013,13880743.99
+3181,Transfers & Loans,29,Transfers & Loans,General Fund,2013,376481
+3182,Transfers & Loans,29,Transfers & Loans,Special Funds,2013,-228709
+3183,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2013,0
+3184,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2013,0
+3185,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2014,357373
+3186,Major Revenue,2,Corporation Tax,General Fund,2014,9416779
+3187,Major Revenue,3,Cigarette Tax,General Fund,2014,86317
+3188,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2014,929
+3189,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2014,0
+3190,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2014,2444573
+3191,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2014,20387
+3192,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2014,150
+3193,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2014,0
+3194,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2014,0
+3195,Major Revenue,11,Motor Vehicle Registration,General Fund,2014,0
+3196,Major Revenue,12,Personal Income Tax,General Fund,2014,76169327
+3197,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2014,0
+3198,Major Revenue,14,Retail Sales and Use Tax,General Fund,2014,23682139
+3199,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2014,0
+3200,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2014,0
+3201,Major Revenue,2,Corporation Tax,Special Funds,2014,0
+3202,Major Revenue,3,Cigarette Tax,Special Funds,2014,746062
+3203,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2014,13080
+3204,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2014,0
+3205,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2014,0
+3206,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2014,0
+3207,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2014,2285897
+3208,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2014,5345526
+3209,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2014,365634
+3210,Major Revenue,11,Motor Vehicle Registration,Special Funds,2014,3672430
+3211,Major Revenue,12,Personal Income Tax,Special Funds,2014,1830637
+3212,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2014,9386346
+3213,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2014,2074412
+3214,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2014,1584475
+3215,Minor Revenue,20,Trial Court Revenues,General Fund,2014,0
+3216,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2014,0
+3217,Minor Revenue,22,California State University Fees,General Fund,2014,0
+3218,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2014,20735
+3219,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2014,1449
+3220,Minor Revenue,25,State Lands Royalties,General Fund,2014,244451
+3221,Minor Revenue,26,Abandoned Property,General Fund,2014,431756
+3222,Minor Revenue,27,Settlements & Judgments,General Fund,2014,33089
+3223,Minor Revenue,28,All Other Minor Revenue,General Fund,2014,859930
+3224,Minor Revenue,20,Trial Court Revenues,Special Funds,2014,0
+3225,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2014,97664
+3226,Minor Revenue,22,California State University Fees,Special Funds,2014,0
+3227,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2014,163
+3228,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2014,25385
+3229,Minor Revenue,25,State Lands Royalties,Special Funds,2014,0
+3230,Minor Revenue,26,Abandoned Property,Special Funds,2014,0
+3231,Minor Revenue,27,Settlements & Judgments,Special Funds,2014,21206
+3232,Minor Revenue,28,All Other Minor Revenue,Special Funds,2014,16683320
+3233,Transfers & Loans,29,Transfers & Loans,General Fund,2014,-1979996
+3234,Transfers & Loans,29,Transfers & Loans,Special Funds,2014,1953273
+3235,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2014,0
+3236,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2014,0
+3237,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2015,368699
+3238,Major Revenue,2,Corporation Tax,General Fund,2015,10459561
+3239,Major Revenue,3,Cigarette Tax,General Fund,2015,85344
+3240,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2015,880
+3241,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2015,0
+3242,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2015,2561932
+3243,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2015,22742
+3244,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2015,23
+3245,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2015,0
+3246,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2015,0
+3247,Major Revenue,11,Motor Vehicle Registration,General Fund,2015,0
+3248,Major Revenue,12,Personal Income Tax,General Fund,2015,78735311
+3249,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2015,0
+3250,Major Revenue,14,Retail Sales and Use Tax,General Fund,2015,24871008
+3251,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2015,0
+3252,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2015,0
+3253,Major Revenue,2,Corporation Tax,Special Funds,2015,0
+3254,Major Revenue,3,Cigarette Tax,Special Funds,2015,754690
+3255,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2015,13657
+3256,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2015,0
+3257,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2015,0
+3258,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2015,0
+3259,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2015,2480524
+3260,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2015,4559537
+3261,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2015,441002
+3262,Major Revenue,11,Motor Vehicle Registration,Special Funds,2015,3793190
+3263,Major Revenue,12,Personal Income Tax,Special Funds,2015,1805958
+3264,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2015,9636328
+3265,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2015,2096961
+3266,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2015,964645
+3267,Minor Revenue,20,Trial Court Revenues,General Fund,2015,0
+3268,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2015,0
+3269,Minor Revenue,22,California State University Fees,General Fund,2015,0
+3270,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2015,40769
+3271,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2015,4334
+3272,Minor Revenue,25,State Lands Royalties,General Fund,2015,73904
+3273,Minor Revenue,26,Abandoned Property,General Fund,2015,405946
+3274,Minor Revenue,27,Settlements & Judgments,General Fund,2015,43281
+3275,Minor Revenue,28,All Other Minor Revenue,General Fund,2015,1190546
+3276,Minor Revenue,20,Trial Court Revenues,Special Funds,2015,0
+3277,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2015,81605
+3278,Minor Revenue,22,California State University Fees,Special Funds,2015,0
+3279,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2015,331
+3280,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2015,58953
+3281,Minor Revenue,25,State Lands Royalties,Special Funds,2015,0
+3282,Minor Revenue,26,Abandoned Property,Special Funds,2015,0
+3283,Minor Revenue,27,Settlements & Judgments,Special Funds,2015,27968
+3284,Minor Revenue,28,All Other Minor Revenue,Special Funds,2015,16511644
+3285,Transfers & Loans,29,Transfers & Loans,General Fund,2015,-3203645
+3286,Transfers & Loans,29,Transfers & Loans,Special Funds,2015,2871828
+3287,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2015,0
+3288,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2015,0
+3289,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2016,374608
+3290,Major Revenue,2,Corporation Tax,General Fund,2016,10210422
+3291,Major Revenue,3,Cigarette Tax,General Fund,2016,79279
+3292,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2016,987
+3293,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2016,0
+3294,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2016,2482915
+3295,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2016,23197
+3296,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2016,0
+3297,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2016,0
+3298,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2016,0
+3299,Major Revenue,11,Motor Vehicle Registration,General Fund,2016,0
+3300,Major Revenue,12,Personal Income Tax,General Fund,2016,83160906
+3301,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2016,0
+3302,Major Revenue,14,Retail Sales and Use Tax,General Fund,2016,24494113
+3303,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2016,0
+3304,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2016,0
+3305,Major Revenue,2,Corporation Tax,Special Funds,2016,0
+3306,Major Revenue,3,Cigarette Tax,Special Funds,2016,1105682
+3307,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2016,14362
+3308,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2016,0
+3309,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2016,0
+3310,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2016,0
+3311,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2016,2630957
+3312,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2016,4353043
+3313,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2016,552317
+3314,Major Revenue,11,Motor Vehicle Registration,Special Funds,2016,3951401
+3315,Major Revenue,12,Personal Income Tax,Special Funds,2016,1863048
+3316,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2016,9769284
+3317,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2016,693389
+3318,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2016,0
+3319,Minor Revenue,20,Trial Court Revenues,General Fund,2016,0
+3320,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2016,0
+3321,Minor Revenue,22,California State University Fees,General Fund,2016,0
+3322,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2016,67284
+3323,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2016,4947
+3324,Minor Revenue,25,State Lands Royalties,General Fund,2016,81655
+3325,Minor Revenue,26,Abandoned Property,General Fund,2016,363978
+3326,Minor Revenue,27,Settlements & Judgments,General Fund,2016,14528
+3327,Minor Revenue,28,All Other Minor Revenue,General Fund,2016,695183
+3328,Minor Revenue,20,Trial Court Revenues,Special Funds,2016,0
+3329,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2016,91505
+3330,Minor Revenue,22,California State University Fees,Special Funds,2016,0
+3331,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2016,263
+3332,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2016,59024
+3333,Minor Revenue,25,State Lands Royalties,Special Funds,2016,0
+3334,Minor Revenue,26,Abandoned Property,Special Funds,2016,0
+3335,Minor Revenue,27,Settlements & Judgments,Special Funds,2016,32826
+3336,Minor Revenue,28,All Other Minor Revenue,Special Funds,2016,22305927
+3337,Transfers & Loans,29,Transfers & Loans,General Fund,2016,-3514989
+3338,Transfers & Loans,29,Transfers & Loans,Special Funds,2016,3421485
+3339,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2016,0
+3340,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2016,0
+3341,Major Revenue,1,Alcoholic Beverages Taxes & Fees,General Fund,2017,376735
+3342,Major Revenue,2,Corporation Tax,General Fund,2017,10894418
+3343,Major Revenue,3,Cigarette Tax,General Fund,2017,64845
+3344,Major Revenue,4,Horse Racing (Pari-mutual License Fees),General Fund,2017,987
+3345,Major Revenue,5,"Estate, Inheritance & Gift Tax",General Fund,2017,0
+3346,Major Revenue,6,Insurance Gross Premium Tax,General Fund,2017,2537706
+3347,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,General Fund,2017,23660
+3348,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,General Fund,2017,0
+3349,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),General Fund,2017,0
+3350,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),General Fund,2017,0
+3351,Major Revenue,11,Motor Vehicle Registration,General Fund,2017,0
+3352,Major Revenue,12,Personal Income Tax,General Fund,2017,88821215
+3353,Major Revenue,13,Retail Sales and Use Tax (Realignment),General Fund,2017,0
+3354,Major Revenue,14,Retail Sales and Use Tax,General Fund,2017,24469589
+3355,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),General Fund,2017,0
+3356,Major Revenue,1,Alcoholic Beverages Taxes & Fees,Special Funds,2017,0
+3357,Major Revenue,2,Corporation Tax,Special Funds,2017,0
+3358,Major Revenue,3,Cigarette Tax,Special Funds,2017,2026063
+3359,Major Revenue,4,Horse Racing (Pari-mutual License Fees),Special Funds,2017,14362
+3360,Major Revenue,5,"Estate, Inheritance & Gift Tax",Special Funds,2017,0
+3361,Major Revenue,6,Insurance Gross Premium Tax,Special Funds,2017,0
+3362,Major Revenue,7,Trailer Coach License (In-Lieu) Fees,Special Funds,2017,0
+3363,Major Revenue,8,Motor Vehicle License (In-Lieu) Fees,Special Funds,2017,2760039
+3364,Major Revenue,9,Motor Vehicle Fuel Tax (Gasoline),Special Funds,2017,5897865
+3365,Major Revenue,10,Motor Vehicle Fuel Tax (Diesel),Special Funds,2017,966498
+3366,Major Revenue,11,Motor Vehicle Registration,Special Funds,2017,4260117
+3367,Major Revenue,12,Personal Income Tax,Special Funds,2017,1887584
+3368,Major Revenue,13,Retail Sales and Use Tax (Realignment),Special Funds,2017,10146218
+3369,Major Revenue,14,Retail Sales and Use Tax,Special Funds,2017,685572
+3370,Major Revenue,16,Retail Sales and Use Tax (Fiscal Recovery),Special Funds,2017,0
+3371,Minor Revenue,20,Trial Court Revenues,General Fund,2017,0
+3372,Minor Revenue,21,Emergency Telephone Users Surcharge,General Fund,2017,0
+3373,Minor Revenue,22,California State University Fees,General Fund,2017,0
+3374,Minor Revenue,23,Income from Pooled Money Investments,General Fund,2017,106105
+3375,Minor Revenue,24,Income from Surplus Money Investments,General Fund,2017,4947
+3376,Minor Revenue,25,State Lands Royalties,General Fund,2017,33737
+3377,Minor Revenue,26,Abandoned Property,General Fund,2017,381021
+3378,Minor Revenue,27,Settlements & Judgments,General Fund,2017,2030
+3379,Minor Revenue,28,All Other Minor Revenue,General Fund,2017,458757
+3380,Minor Revenue,20,Trial Court Revenues,Special Funds,2017,0
+3381,Minor Revenue,21,Emergency Telephone Users Surcharge,Special Funds,2017,91505
+3382,Minor Revenue,22,California State University Fees,Special Funds,2017,0
+3383,Minor Revenue,23,Income from Pooled Money Investments,Special Funds,2017,261
+3384,Minor Revenue,24,Income from Surplus Money Investments,Special Funds,2017,56852
+3385,Minor Revenue,25,State Lands Royalties,Special Funds,2017,0
+3386,Minor Revenue,26,Abandoned Property,Special Funds,2017,0
+3387,Minor Revenue,27,Settlements & Judgments,Special Funds,2017,28616
+3388,Minor Revenue,28,All Other Minor Revenue,Special Funds,2017,21463035
+3389,Transfers & Loans,29,Transfers & Loans,General Fund,2017,-2295260
+3390,Transfers & Loans,29,Transfers & Loans,Special Funds,2017,2275974
+3391,SCO Adjustments,30,Adjustments to Reconcile to Controller,General Fund,2017,0
+3392,SCO Adjustments,30,Adjustments to Reconcile to Controller,Special Funds,2017,0
