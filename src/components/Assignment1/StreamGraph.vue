@@ -8,9 +8,16 @@
     export default {
         name: "StreamGraph",
         mounted() {
-            let margin = {top: 20, right: 60, bottom: 30, left: 30},
-                width = 1200 - margin.left - margin.right,
-                height = 750 - margin.top - margin.bottom;
+            let div = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            let xFrame = 1200,
+                yFrame = 750;
+
+            let margin = {top: 20, right: 60, bottom: 30, left: 70},
+                width = xFrame - margin.left - margin.right,
+                height = yFrame - margin.top - margin.bottom;
 
             let parseDate = d3.timeParse('%Y');
 
@@ -32,9 +39,10 @@
 
             let svg = d3.select(this.$el)
                 .append('svg')
-                .attr("style", "outline: thin solid red;")
-                .attr("width", width)
-                .attr("height", height);
+                .attr('width', width + margin.left + margin.right)
+                .attr('height', height + margin.top + margin.bottom)
+                .append('g')
+                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
             // d3.csv('data/TestData.csv', function(d) {
             //     return {
@@ -88,7 +96,7 @@
 
                     // set stacks
                     stack.keys(keys);
-                    stack.order(d3.stackOrderNone);
+                    stack.order(d3.stackOrderAscending);
                     stack.offset(d3.stackOffsetNone);
 
                     // setup browser
@@ -101,7 +109,33 @@
                     browser.append('path')
                         .attr('class', 'area')
                         .attr('d', area)
-                        .style('fill', function(d) { return color(d.key); });
+                        .style('fill', function(d) { return color(d.key); })
+                        .on("mousemove", function (d) {
+                            d3.select(this)
+                                .style("fill", color(d.key))
+                                .attr('fill-opacity', 0.3);
+
+                            let xPosition =  event.pageX;
+                            let yPosition = event.pageY;
+
+                            // console.log("x: " + xPosition + ", y: " + yPosition);
+
+                            div.transition()
+                                .duration(200)
+                                .style("opacity", .9);
+                            div.html(d.key )
+                                .style("left", (xPosition) + "px")
+                                .style("top", (yPosition - 28) + "px");
+
+                        })
+                        .on("mouseout", function (d) {
+                            d3.select(this)
+                                .style("fill", color(d.key))
+                                .attr('fill-opacity', "none");
+                            div.transition()
+                                .duration(500)
+                                .style("opacity", 0);
+                        });
 
                     svg.append('g')
                         .attr('class', 'x axis')
@@ -120,6 +154,19 @@
     }
 </script>
 
-<style scoped>
-
+<style >
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: auto;
+        min-width: 60px;
+        height: auto;
+        min-height: 10px;
+        padding: 2px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
 </style>
