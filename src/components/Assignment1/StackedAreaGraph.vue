@@ -32,7 +32,8 @@
                 formatMillion = function(x) { return formatNumber(x / 1e6); };
 
             let x = d3.scaleTime().range([0, width]);
-            let y = d3.scalePow()
+            let y = d3
+                .scalePow()
                 .exponent(0.5)
                 .range([height, 0]);
 
@@ -87,6 +88,8 @@
                         .attr('class', function(d){ return 'browser ' + d.key; })
                         .attr('fill-opacity', 0.5);
 
+
+
                     // append the path areas
                     browser.append('path')
                         .attr('class', 'area')
@@ -110,16 +113,6 @@
                             // x -> [0, 880]
                             // y -> [400, 880]
 
-                            // svg.append("line")
-                            //     .attr("x1", 100)
-                            //     .attr("y1", 0)
-                            //     .attr("x2", 100)
-                            //     .attr("y2", height)
-                            //     .style("stroke-width", 2)
-                            //     .style("stroke", "red")
-                            //     .style("fill", "none");
-
-
                             div.transition()
                                 .duration(200)
                                 .style("opacity", .9);
@@ -137,8 +130,21 @@
                                 .style("opacity", 0);
                         });
 
-                    // add vertical line
+                    let key,
+                        yval = 0,
+                        columnTotal = 0;
+                    for (key = 0; key < keys.length; key++) {
+                        svg.selectAll("dot")
+                            .data(data)
+                            .enter()
+                            .append("circle")
+                            .attr("r", 3)
+                            .attr("cx", function(d) { return x(d.year) })
+                            .attr("cy", function(d) {
+                                return y(d[keys[key]]);
+                            });
 
+                    }
 
 
                     // add the x-axis
