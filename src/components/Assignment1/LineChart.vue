@@ -1,10 +1,19 @@
 <template>
-    <div></div>
+    <div class="d3chart"></div>
 </template>
 
 <script>
     // https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6
     // Best Reference material:  https://bl.ocks.org/d3noob/4db972df5d7efc7d611255d1cc6f3c4f
+    /*
+        TODO: dots on mouseover values
+        TODO: rescale the Y-axis to millions
+        TODO: add a legend, grouped by categories
+        TODO: on mousemove line, display the line name
+        TODO: add chart title
+        TODO: add axis labels
+        TODO: (@time) add/remove lines
+     */
     import * as d3 from 'd3'
     export default {
         name: "LineChart",
@@ -13,17 +22,20 @@
             let xFrame = 1000,
                 yFrame = 500;
 
-            let margin = {top: 50, right: 50, bottom: 50, left: 100},
+            let margin = {top: 50, right: 10, bottom: 50, left: 70},
                 width = xFrame - margin.left - margin.right,
                 height = yFrame - margin.top - margin.bottom;
 
             let parseDate = d3.timeParse('%Y');
 
             let x = d3.scaleTime().range([0, width]);
-            let y = d3.scalePow().range([height, 0]);
+            let y = d3.scalePow().exponent(0.5)
+                .range([height, 0]);
 
-
-            let xAxis = d3.axisBottom().scale(x);
+            let xAxis = d3.axisBottom()
+                .scale(x)
+                .ticks(d3.timeYear);
+                // .ticks(d3.timeYears(1))
             let yAxis = d3.axisLeft().scale(y); //.tickFormat(formatBillion);
 
             let svg = d3.select(this.$el)
@@ -35,14 +47,14 @@
 
             d3.csv('data/line_graph.csv')
                 .then(function (data) {
-                    let keys = data.columns.filter(function(key) { return key !== 'year'; });
+                    // let keys = data.columns.filter(function(key) { return key !== 'year'; });
                     data.forEach(function(d) {
                         d.year = parseDate(d.year);
                     });
 
-                    let maxYVal = d3.max(data, function(d){
-                        return d3.max(d3.keys(d).map(function(key){ return d[key] }));
-                    });
+                    // let maxYVal = d3.max(data, function(d){
+                    //     return d3.max(d3.keys(d).map(function(key){ return d[key] }));
+                    // });
 
                     x.domain(d3.extent(data, function(d) { return d.year; }));
                     // y.domain([-20000000, 155833473]);
@@ -51,66 +63,49 @@
                     // setup lines
                     // Year,General Fund,Special Funds,Major Revenue,Minor Revenue,SCO Adjustments,Transfers & Loans
                     // console.log(data);
-                    let generalFundLine = d3.line()
-                        .x(function(d) { return x( d.year ) })
-                        .y(function(d) { return y( d['General Fund'] );});
 
-                    let specialFundsLine = d3.line()
-                        .x(function (d)  { return x( d.year) })
-                        .y(function (d)  { return y( d['Special Funds']);});
+                    // console.log(data.columns[1]);
 
-                    let majorRevenueLine = d3.line()
-                        .x(function (d)  { return x( d.year) })
-                        .y(function (d)  { return y( d['Major Revenue']);});
+                    let i;
+                    let lines = [];
+                    let colorMap = [
+                        '#000080', '#6495ED', // funds
+                        '#f47461','#db4551','#b81b34','#8b0000' // other categories
+                    ];
 
-                    let minorRevenueLine = d3.line()
-                        .x(function (d)  { return x( d.year) })
-                        .y(function (d)  { return y( d['Minor Revenue']);});
+                    for (i = 1 ; i < data.columns.length; i++) {
+                        let column = data.columns[i];
+                        lines.push(
+                            d3.line()
+                                .x(function(d) { return x( d.year ) })
+                                .y(function(d) { return y( d[column] );})
+                        );
 
-                    let scoAdjustmentsLine = d3.line()
-                        .x(function (d)  { return x( d.year) })
-                        .y(function (d)  { return y( d['SCO Adjustments']);});
+                        svg.append("path")
+                            .data([data])
+                            .attr("class", "line")
+                            .attr("d", lines[i - 1])
+                            .style("stroke", colorMap[i-1]);
 
-                    let transferLoanLine = d3.line()
-                        .x(function (d)  { return x( d.year) })
-                        .y(function (d)  { return y( d['Transfers & Loans']);});
+                        svg.selectAll("dot")
+                            .data(data)
+                            .enter()
+                            .append("circle")
+                            .attr("r", 3)
+                            .attr("cx", function(d) {return x(d.year)})
+                            .attr("cy", function (d)  { return y( d[column]);})
+                            .style("fill", colorMap[i-1])
+                            .on("mouseover", function(d) {
+                                d3.select(this)
+                                    .attr('r', 5);
+                            })
+                            .on("mouseout", function(d) {
+                                d3.select(this)
+                                    .attr('r', 3)
+                            })
+                    }
 
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", generalFundLine);
-
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", specialFundsLine)
-                        .style("stroke", "red");
-
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", majorRevenueLine)
-                        .style("stroke", "blue");
-
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", minorRevenueLine)
-                        .style("stroke", "green");
-
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", scoAdjustmentsLine)
-                        .style("stroke", "violet");
-
-                    svg.append("path")
-                        .data([data])
-                        .attr("class", "line")
-                        .attr("d", transferLoanLine)
-                        .style("stroke", "pink");
-
-
+                    // Add the x-axis
                     svg.append('g')
                         .attr('class', 'x axis')
                         .attr('transform', 'translate(0,' + height + ')')

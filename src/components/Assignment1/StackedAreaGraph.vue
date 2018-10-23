@@ -1,10 +1,17 @@
 <template>
-    <div>
+    <div class="d3chart" align="center">
     </div>
 </template>
 
 <script>
     // https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb
+    /*
+        TODO: mouseover values -- ideally year and amount
+        TODO: on mousemove line, display the line name
+        TODO: (@time) add/remove axis hover lineslines
+        TODO: (@time) redo colors to bolds
+        TODO: (@time) background image
+     */
     import * as d3 from 'd3'
     export default {
         name: "StackedAreaGraph",
@@ -16,11 +23,13 @@
             let xFrame = 1000,
                 yFrame = 500;
 
-            let margin = {top: 20, right: 60, bottom: 30, left: 70},
+            let margin = {top: 50, right: 10, bottom: 50, left: 70},
                 width = xFrame - margin.left - margin.right,
                 height = yFrame - margin.top - margin.bottom;
 
             let parseDate = d3.timeParse('%Y');
+            let formatNumber = d3.format(".0f"),
+                formatMillion = function(x) { return formatNumber(x / 1e6); };
 
             let x = d3.scaleTime().range([0, width]);
             let y = d3.scalePow()
@@ -29,8 +38,8 @@
 
             let color = d3.scaleOrdinal(d3.schemeDark2);
 
-            let xAxis = d3.axisBottom().scale(x);
-            let yAxis = d3.axisLeft().scale(y); //.tickFormat(formatBillion);
+            let xAxis = d3.axisBottom().scale(x).ticks(d3.timeYear);;
+            let yAxis = d3.axisLeft().scale(y).tickFormat(formatMillion); //.tickFormat(formatBillion);
 
             let area = d3.area()
                 .x(function(d) {
@@ -78,6 +87,7 @@
                         .attr('class', function(d){ return 'browser ' + d.key; })
                         .attr('fill-opacity', 0.5);
 
+                    // append the path areas
                     browser.append('path')
                         .attr('class', 'area')
                         .attr('d', area)
@@ -90,12 +100,32 @@
                             let xPosition =  event.pageX;
                             let yPosition = event.pageY;
 
-                            // console.log("x: " + xPosition + ", y: " + yPosition);
+                            let d3Mouse = d3.mouse(this);
+
+                            let yearOffset = width / 17;
+
+                            let xStartYear = Math.floor(d3Mouse[0] / yearOffset);
+                            let xEndYear = Math.ceil(d3Mouse[0] / yearOffset);
+                            // console.log("s: " + d[xStartYear][0] + "  e: " + d[xStartYear][1]);
+                            // x -> [0, 880]
+                            // y -> [400, 880]
+
+                            console.log(x(2003));
+
+                            svg.append("line")
+                                .attr("x1", x(d3.timeParse(2010)))
+                                .attr("y1", 0)
+                                .attr("x2", x(d3.timeParse(2010)))
+                                .attr("y2", height)
+                                .style("stroke-width", 2)
+                                .style("stroke", "red")
+                                .style("fill", "none");
+
 
                             div.transition()
                                 .duration(200)
                                 .style("opacity", .9);
-                            div.html(d.key )
+                            div.html(d.key + "<br />" + d.year)
                                 .style("left", (xPosition) + "px")
                                 .style("top", (yPosition - 28) + "px");
 
@@ -109,15 +139,37 @@
                                 .style("opacity", 0);
                         });
 
+                    // add vertical line
+
+
+
+                    // add the x-axis
                     svg.append('g')
                         .attr('class', 'x axis')
                         .attr('transform', 'translate(0,' + height + ')')
                         .call(xAxis);
 
+                    // text label for x-axis
+                    svg.append("text")
+                        .attr("transform",
+                            "translate(" + (width/2) + " ," +
+                            (height + margin.top) + ")")
+                        .style("text-anchor", "middle")
+                        .text("Year");
+
+                    // add the y-axis
                     svg.append('g')
                         .attr('class', 'y axis')
                         .call(yAxis);
 
+                    // text label for y-axis
+                    svg.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", 0 - margin.left)
+                        .attr("x",0 - (height / 2))
+                        .attr("dy", "1em")
+                        .style("text-anchor", "middle")
+                        .text("Revenue (millions)");
                 });
         },
         methods: {
