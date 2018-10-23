@@ -1,5 +1,6 @@
 <template>
-
+    <div>
+    </div>
 </template>
 
 <script>
@@ -12,8 +13,8 @@
                 .attr("class", "tooltip")
                 .style("opacity", 0);
 
-            let xFrame = 1200,
-                yFrame = 750;
+            let xFrame = 1000,
+                yFrame = 500;
 
             let margin = {top: 20, right: 60, bottom: 30, left: 70},
                 width = xFrame - margin.left - margin.right,
@@ -22,7 +23,9 @@
             let parseDate = d3.timeParse('%Y');
 
             let x = d3.scaleTime().range([0, width]);
-            let y = d3.scaleLinear().range([height, 0]);
+            let y = d3.scalePow()
+                .exponent(0.25)
+                .range([height, 0]);
 
             let color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -33,7 +36,8 @@
                 .x(function(d) {
                     return x(d.data.year); })
                 .y0(function(d) { return y(d[0]); })
-                .y1(function(d) { return y(d[1]); });
+                .y1(function(d) { return y(d[1]); })
+                .curve(d3.curveBasis);
 
             let stack = d3.stack();
 
@@ -44,36 +48,6 @@
                 .append('g')
                 .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-            // d3.csv('data/TestData.csv', function(d) {
-            //     return {
-            //         // abandonedProperty: +d["Abandoned Property"],
-            //         // adjustmentsToReconcileToController: +d["Adjustments to Reconcile to Controller"],
-            //         // alcoholicBeveragesTaxesAndFees: +d["Alcoholic Beverages Taxes & Fees"],
-            //         // allOtherMinorRevenue: +d["All Other Minor Revenue"],
-            //         // californiaStateUniversityFees: +d["California State University Fees"],
-            //         // cigaretteTax: +d["Cigarette Tax"],
-            //         // corporationTax: +d["Corporation Tax"],
-            //         // emergencyTelephoneUsersSurcharge: +d["Emergency Telephone Users Surcharge"],
-            //         // estateInheritanceAndGiftTax: +d["Estate, Inheritance & Gift Tax"],
-            //         // horseRacingPariMutualLicenseFees: +d["Horse Racing (Pari-mutual License Fees)"],
-            //         // incomeFromPooledMoneyInvestments: +d["Income from Pooled Money Investments"],
-            //         // incomeFromSurplusMoneyInvestments: +d["Income from Surplus Money Investments"],
-            //         // insuranceGrossPremiumTax: +d["Insurance Gross Premium Tax"],
-            //         // motorVehicleFuelTaxDiesel: +d["Motor Vehicle Fuel Tax (Diesel)"],
-            //         // motorVehicleFuelTaxGasoline: +d["Motor Vehicle Fuel Tax (Gasoline)"],
-            //         // motorVehicleLicenseInLieuFees: +d["Motor Vehicle License (In-Lieu) Fees"],
-            //         // motorVehicleRegistration: +d["Motor Vehicle Registration"],
-            //         // personalIncomeTax: +d["Personal Income Tax"],
-            //         // retailSalesAndUseTax: +d["Retail Sales and Use Tax"],
-            //         // retailSalesAndUseTaxFiscalRecovery: +d["Retail Sales and Use Tax (Fiscal Recovery)"],
-            //         // retailSalesAndUseTaxRealignment: +d["Retail Sales and Use Tax (Realignment)"],
-            //         // settlementsAndJudgments: +d["Settlements & Judgments"],
-            //         // stateLandsRoyalties: +d["State Lands Royalties"],
-            //         // telecommunicationsTax: +d["Telecommunications Tax"],
-            //         // trailerCoachLicenseInLieuFees: +d["Trailer Coach License (In-Lieu) Fees"],
-            //         // transfersAndLoans: +d["Transfers & Loans"],
-            //         // trialCourtRevenues: +d["Trial Court Revenues"]
-            //     };})
             d3.csv('data/streamgraphdata.csv')
                 .then(function (data) {
                     // console.log(data);
@@ -91,8 +65,6 @@
                     // set domains
                     x.domain(d3.extent(data, function(d) { return d.year; }));
                     y.domain([0, maxDateVal]);
-
-                    let colorRange = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
 
                     // set stacks
                     stack.keys(keys);
