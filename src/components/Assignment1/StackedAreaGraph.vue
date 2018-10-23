@@ -95,6 +95,39 @@
                         .attr('class', 'area')
                         .attr('d', area)
                         .style('fill', function(d) { return color(d.key); })
+                        .on("mouseover", function(d) {
+                            // d[index][x0, y1]
+                            // console.log(d)
+                            // console.log(d.key)
+                            // console.log(d.index)
+
+                            let line = d3.line()
+                                .x(function(d1) { return x(d1.year)})
+                                .y(function(d1) { return y(d1[d.key])});
+
+
+                            svg.append("path")
+                                .data([data])
+                                .attr("class", "line")
+                                .attr("d", line)
+                                .style("stroke", "red");
+
+                            svg.append("g").selectAll("text")
+                                .data(data)
+                                .enter()
+                                .append("text")
+                                .attr("class", "datalabel")
+                                .attr("x", function(d1) { return x(d1.year)})
+                                .attr("y", function(d1) { return y(d1[d.key])})
+                                .attr("fill", "black")
+                                .text(function (d1) {
+                                    let format = d3.format(".3f"),
+                                        formatMill = function(x) { return format(x / 1e6); };
+                                    return formatMill(d1[d.key])
+                                });
+
+
+                        })
                         .on("mousemove", function (d) {
                             d3.select(this)
                                 .style("fill", color(d.key))
@@ -128,30 +161,32 @@
                             div.transition()
                                 .duration(500)
                                 .style("opacity", 0);
+                            d3.select("path.line").remove();
+                            d3.selectAll("text.datalabel").remove();
                         });
 
-                    let key,
-                        yval = 0,
-                        columnTotal = 0;
-                    for (key = 0; key < keys.length; key++) {
-                        svg.selectAll("dot")
-                            .data(data)
-                            .enter()
-                            .append("circle")
-                            .attr("r", 3)
-                            .attr("cx", function(d) { return x(d.year) })
-                            .attr("cy", function(d) {
-                                return y(d[keys[key]]);
-                            });
-
-                    }
+                    // let key,
+                    //     yval = 0,
+                    //     columnTotal = 0;
+                    // for (key = 0; key < keys.length; key++) {
+                    //     svg.selectAll("dot")
+                    //         .data(data)
+                    //         .enter()
+                    //         .append("circle")
+                    //         .attr("r", 3)
+                    //         .attr("cx", function(d) { return x(d.year) })
+                    //         .attr("cy", function(d) {
+                    //             return y(d[keys[key]]);
+                    //         });
+                    //
+                    // }
 
 
                     // add the x-axis
                     svg.append('g')
                         .attr('class', 'x axis')
                         .attr('transform', 'translate(0,' + height + ')')
-                        .call(xAxis);
+                        .call(xAxis)
 
                     // text label for x-axis
                     svg.append("text")

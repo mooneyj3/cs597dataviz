@@ -75,6 +75,7 @@
 
                     for (i = 1 ; i < data.columns.length; i++) {
                         let column = data.columns[i];
+
                         lines.push(
                             d3.line()
                                 .x(function(d) { return x( d.year ) })
