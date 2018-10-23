@@ -7,7 +7,7 @@
     // https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb
     import * as d3 from 'd3'
     export default {
-        name: "StreamGraph",
+        name: "StackedAreaGraph",
         mounted() {
             let div = d3.select("body").append("div")
                 .attr("class", "tooltip")
@@ -24,10 +24,10 @@
 
             let x = d3.scaleTime().range([0, width]);
             let y = d3.scalePow()
-                .exponent(0.25)
+                .exponent(0.5)
                 .range([height, 0]);
 
-            let color = d3.scaleOrdinal(d3.schemeCategory10);
+            let color = d3.scaleOrdinal(d3.schemeDark2);
 
             let xAxis = d3.axisBottom().scale(x);
             let yAxis = d3.axisLeft().scale(y); //.tickFormat(formatBillion);
@@ -48,7 +48,7 @@
                 .append('g')
                 .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-            d3.csv('data/streamgraphdata.csv')
+            d3.csv('data/stacked_area_exc_transferloans.csv')
                 .then(function (data) {
                     // console.log(data);
                     color.domain(d3.keys(data[0]).filter(function(key) { return key !== 'year'; }));
