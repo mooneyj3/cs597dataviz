@@ -110,16 +110,14 @@
                             // x -> [0, 880]
                             // y -> [400, 880]
 
-                            console.log(x(2003));
-
-                            svg.append("line")
-                                .attr("x1", x(d3.timeParse(2010)))
-                                .attr("y1", 0)
-                                .attr("x2", x(d3.timeParse(2010)))
-                                .attr("y2", height)
-                                .style("stroke-width", 2)
-                                .style("stroke", "red")
-                                .style("fill", "none");
+                            // svg.append("line")
+                            //     .attr("x1", 100)
+                            //     .attr("y1", 0)
+                            //     .attr("x2", 100)
+                            //     .attr("y2", height)
+                            //     .style("stroke-width", 2)
+                            //     .style("stroke", "red")
+                            //     .style("fill", "none");
 
 
                             div.transition()
