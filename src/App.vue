@@ -7,16 +7,29 @@
                 CS 597 - Data Visualization
             </h2>
             <div id="chart1">
-                <h3>Graph 1: Look things</h3>
+                <h3>Comparing Different Sources of Revenue</h3>
                 <p>
-                    Exploring the relationship...
+                    Here I used a stacked area chart so that one can see how the different sources of revenue contribute
+                    to the overall state revenues.  Exponential expansion was used on the y-axis so small sources of
+                    revenue are visible.  Interaction is enabled to show the actual values along a line graph when hovering
+                    over a specific region.
+                </p>
+                <p>
+                    This graph was generated with the help of this contributor on <a href="bl.ocks.org">bl.ocks.org</a>.
+                    <br /><a href="https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb">https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb</a>
                 </p>
                 <StackedAreaGraph></StackedAreaGraph>
             </div>
             <div id="chart2">
-                <h3>Chart 2: Look some lines</h3>
+                <h3>Comparing Funds and Types of Revenues</h3>
                 <p>
-                    some other stuff I need to talk about for this graph
+                    In this graph, I used a multi-line chart to show the different contributions to revenue.  Again the
+                    y-axis is exponentially adjusted to allow comparisons of different revenues that would otherwise be
+                    compressed by scaling.
+                </p>
+                <p>
+                    This graph was generated with the help of this contributor on <a href="bl.ocks.org">bl.ocks.org</a>.
+                    <br /><a href="https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6">https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6</a>
                 </p>
                 <LineChart></LineChart>
             </div>

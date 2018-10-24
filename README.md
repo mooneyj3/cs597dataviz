@@ -1,5 +1,11 @@
 # cs597dataviz
 
+## Special commands
+Run local server
+```
+serve -s dist
+```
+
 ## Project setup
 ```
 npm install

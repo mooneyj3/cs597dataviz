@@ -5,13 +5,6 @@
 
 <script>
     // https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb
-    /*
-        TODO: mouseover values -- ideally year and amount
-        TODO: on mousemove line, display the line name
-        TODO: (@time) add/remove axis hover lineslines
-        TODO: (@time) redo colors to bolds
-        TODO: (@time) background image
-     */
     import * as d3 from 'd3'
     export default {
         name: "StackedAreaGraph",
@@ -34,12 +27,12 @@
             let x = d3.scaleTime().range([0, width]);
             let y = d3
                 .scalePow()
-                .exponent(0.5)
+                .exponent(0.4)
                 .range([height, 0]);
 
             let color = d3.scaleOrdinal(d3.schemeDark2);
 
-            let xAxis = d3.axisBottom().scale(x).ticks(d3.timeYear);;
+            let xAxis = d3.axisBottom().scale(x).ticks(d3.timeYear);
             let yAxis = d3.axisLeft().scale(y).tickFormat(formatMillion); //.tickFormat(formatBillion);
 
             let area = d3.area()
@@ -58,6 +51,45 @@
                 .append('g')
                 .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
+            // Chart Title
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top /2 ))
+                .attr("text-anchor", "middle")
+                .text("California State Revenues (2000 - 2017)")
+                .attr("class", "chart-title");
+
+            // Chart Sub - Title
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (0.25 * (margin.top / 2 )))
+                .attr("text-anchor", "middle")
+                .text("Total Revenues by Source in Millions")
+                .attr("class", "chart-sub-title");
+
+            // Legend for red line
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 12)
+                .attr("text-anchor", "middle")
+                .text("Actual Revenues")
+                .attr("class", "chart-sub-legend");
+            let legendData = [
+                {"x": (width / 2) - 70, "y": 7},
+                {"x": (width / 2) - 50, "y": 7}
+            ];
+            let legendLine = d3.line()
+                .x(function(d) { return d.x })
+                .y(function(d) { return d.y })
+            svg.append("path")
+                .data([legendData])
+                .attr("class", "legend-area-actual")
+                .attr("d", legendLine)
+                .style("stroke", "red")
+                .style("opacity", 1.0);
+
+
+            // load the data from file
             d3.csv('data/stacked_area_exc_transferloans.csv')
                 .then(function (data) {
                     // console.log(data);
@@ -96,19 +128,14 @@
                         .attr('d', area)
                         .style('fill', function(d) { return color(d.key); })
                         .on("mouseover", function(d) {
-                            // d[index][x0, y1]
-                            // console.log(d)
-                            // console.log(d.key)
-                            // console.log(d.index)
-
                             let line = d3.line()
                                 .x(function(d1) { return x(d1.year)})
-                                .y(function(d1) { return y(d1[d.key])});
-
+                                .y(function(d1) { return y(d1[d.key])})
+                                .curve(d3.curveBasis);
 
                             svg.append("path")
                                 .data([data])
-                                .attr("class", "line")
+                                .attr("class", "area-actual")
                                 .attr("d", line)
                                 .style("stroke", "red");
 
@@ -116,16 +143,14 @@
                                 .data(data)
                                 .enter()
                                 .append("text")
-                                .attr("class", "datalabel")
-                                .attr("x", function(d1) { return x(d1.year)})
-                                .attr("y", function(d1) { return y(d1[d.key])})
-                                .attr("fill", "black")
+                                .attr("class", "area-data-label")
+                                .attr("x", function(d1) { return x(d1.year) })
+                                .attr("y", function(d1) { return y(d1[d.key]) - 5})
                                 .text(function (d1) {
-                                    let format = d3.format(".3f"),
+                                    let format = d3.format(".2f"),
                                         formatMill = function(x) { return format(x / 1e6); };
-                                    return formatMill(d1[d.key])
+                                    return  "$" + formatMill(d1[d.key])
                                 });
-
 
                         })
                         .on("mousemove", function (d) {
@@ -136,20 +161,9 @@
                             let xPosition =  event.pageX;
                             let yPosition = event.pageY;
 
-                            let d3Mouse = d3.mouse(this);
-
-                            let yearOffset = width / 17;
-
-                            let xStartYear = Math.floor(d3Mouse[0] / yearOffset);
-                            let xEndYear = Math.ceil(d3Mouse[0] / yearOffset);
-                            // console.log("s: " + d[xStartYear][0] + "  e: " + d[xStartYear][1]);
-                            // x -> [0, 880]
-                            // y -> [400, 880]
-
                             div.transition()
-                                .duration(200)
                                 .style("opacity", .9);
-                            div.html(d.key + "<br />" + d.year)
+                            div.html(d.key)
                                 .style("left", (xPosition) + "px")
                                 .style("top", (yPosition - 28) + "px");
 
@@ -159,10 +173,9 @@
                                 .style("fill", color(d.key))
                                 .attr('fill-opacity', "none");
                             div.transition()
-                                .duration(500)
                                 .style("opacity", 0);
-                            d3.select("path.line").remove();
-                            d3.selectAll("text.datalabel").remove();
+                            d3.select("path.area-actual").remove();
+                            d3.selectAll("text.area-data-label").remove();
                         });
 
                     // let key,
@@ -211,9 +224,6 @@
                         .text("Revenue (millions)");
                 });
         },
-        methods: {
-        }
-
     }
 </script>
 
@@ -226,10 +236,29 @@
         height: auto;
         min-height: 10px;
         padding: 2px;
+        margin: 2px;
         font: 12px sans-serif;
         background: lightsteelblue;
         border: 0px;
-        border-radius: 8px;
+        border-radius:2px;
         pointer-events: none;
+        color: black;
     }
+    .area-actual {
+        fill: none;
+    }
+
+    .area-data-label {
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    text.chart-title {
+        font-size: 24px;
+    }
+
+    text.chart-sub-legend {
+        font-size: 12px;
+    }
+
 </style>
